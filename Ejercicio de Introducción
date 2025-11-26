@@ -1,0 +1,12 @@
+using System;
+class Nombre {
+  static void Main() {
+    //Declaración de variable
+    string nombre;
+    //Toma de datos
+    Console.Write("Digite su nombre: ");
+    nombre = Console.ReadLine();
+    //Impresión de datos
+    Console.WriteLine($"Nombre: {nombre} \u2665");
+  }
+}
