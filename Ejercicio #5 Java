@@ -1,0 +1,11 @@
+public class Main {
+//Declaración y definición de variable
+  int x = 10;
+
+//Método Main
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 9; //Dara error
+    System.out.println(myObj.x);
+  }
+}
