@@ -1,0 +1,14 @@
+public class Main {
+//Declaración de variables
+  int x;
+  int y;
+
+//Método Main
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 49;
+    myObj.x = 90;
+    System.out.println(myObj.x);
+    System.out.println(myObj.y);
+  }
+}
