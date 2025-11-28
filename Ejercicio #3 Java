@@ -1,11 +1,14 @@
+//Clase #1
 public class Main {
-  String nombre = "José";
-  String apellido = "Barraza";
-  int edad = 21;
+//Declaración y definición de variable
+  int x = 5;
+}
 
+//Clase #2
+//Método Main
+class Second {
   public static void main(String[] args) {
     Main myObj = new Main();
-    System.out.println("Nombre: " + myObj.nombre + " " + myObj.apellido);
-    System.out.println("Edad: " + myObj.edad);
+    System.out.println(myObj.x);
   }
 }
