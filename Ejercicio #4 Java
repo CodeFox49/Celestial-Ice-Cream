@@ -6,9 +6,10 @@ public class Main {
 //Método Main
   public static void main(String[] args) {
     Main myObj = new Main();
+    Main myObj2 = new Main();
     myObj.x = 49;
-    myObj.x = 90;
+    myObj2.x = 90;
     System.out.println(myObj.x);
-    System.out.println(myObj.y);
+    System.out.println(myObj2.y);
   }
 }
