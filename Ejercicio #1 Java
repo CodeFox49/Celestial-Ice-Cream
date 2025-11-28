@@ -1,5 +1,5 @@
 public class Main {
-//Declaración Variable
+//Declaración y definición de Variable
   int x = 49;
 
 //Método Main
