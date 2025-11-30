@@ -1,0 +1,21 @@
+public class Main {
+  int x;  //Declaración de variable
+
+  //Creación de Constructor con parámetros
+  public Main(int x) {
+    this.x = x;
+  }
+
+//Creación de Constructor Vacio
+  public Main() {
+  //
+  }
+
+//Método Main
+  public static void main(String[] args) {
+    Main myObj = new Main(5); //Creación de objeto 1
+    Main myObj2 = new Main(); //Creación de objeto 2
+    System.out.println(myObj.x); //Impresión de resultado
+    System.out.println(myObj2.x);
+  }
+}
