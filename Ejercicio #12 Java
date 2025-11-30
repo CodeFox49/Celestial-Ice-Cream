@@ -1,0 +1,15 @@
+public class Main {
+  int x;  //Declaración de Variable
+
+  //Constructor con parámetro x
+  public Main(int x) {
+    this.x = x; //Referencia al variable x
+  }
+
+//Método Main
+  public static void main(String[] args) {
+    //Creación de objeto con valor de 8 en su constructor
+    Main myObj = new Main(8);
+    System.out.println("Value of x = " + myObj.x);
+  }
+}
