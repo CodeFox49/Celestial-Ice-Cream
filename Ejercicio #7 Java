@@ -1,0 +1,10 @@
+public class Main {
+  static void heladeria() {
+    System.out.println("¡Venta de Helados!");
+  }
+
+//Método Main
+  public static void main(String[] args) {
+    heladeria();
+  }
+}
