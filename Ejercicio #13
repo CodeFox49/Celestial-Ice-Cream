@@ -1,0 +1,34 @@
+public class Main {
+  int modelYear;
+  String modelName;
+
+  //Constructor con un parámetro
+  public Main(String modelName) {
+    //Llamada del segundo constructor para reutilizar valores  
+    this(2020, modelName);
+  }
+
+  //Constructor con 2 parámetros
+  public Main(int modelYear, String modelName) {
+    //Asignación de valores
+    this.modelYear = modelYear;
+    this.modelName = modelName;
+  }
+
+  //Método para mostrar datos
+  public void printInfo() {
+    System.out.println(modelYear + " " + modelName);
+  }
+
+Método Main
+  public static void main(String[] args) {
+    //Objeto que usa fecha por defecto
+    Main car1 = new Main("Corvette");
+
+    //Objeto con 2 valores definidos
+    Main car2 = new Main(1969, "Mustang");
+
+    car1.printInfo();
+    car2.printInfo();
+  }
+}
