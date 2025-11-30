@@ -1,0 +1,19 @@
+public class Main {
+ 
+  //Creación de método aTodoGas
+  public void aTodoGas() {
+    System.out.println("¡El carro esta llendo a toda velocidad!");
+  }
+
+  //Create de método velocidad con parametro
+  public void velocidad(int maxV) {
+    System.out.println("La velocidad máxima es: " + maxV + "Km/h");
+  }
+
+  //Método Main llamando métodos
+  public static void main(String[] args) {
+    Main miCarro = new Main();
+    miCarro.aTodoGas();
+    miCarro.velocidad(200);
+  }
+}
