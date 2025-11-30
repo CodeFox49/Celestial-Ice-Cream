@@ -1,0 +1,14 @@
+public class Main {
+  int x; //Declaración de Variable
+
+//Creación de Constructor
+  public Main(int y) { //Creación de parámetro
+    x = y; //Definición de variable
+  }
+
+//Método Main
+  public static void main(String[] args) {
+    Main myObj = new Main(5); //Creación de Objeto
+    System.out.println(myObj.x); //Impresión del objeto con el atributo x
+  }
+}
