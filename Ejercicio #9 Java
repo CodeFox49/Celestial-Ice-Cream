@@ -1,0 +1,37 @@
+public class Main {
+ 
+  //Creación de método aTodoGas
+  public void aTodoGas() {
+    System.out.println("¡El carro esta llendo a toda velocidad!");
+  }
+
+  //Create de método velocidad con parametro
+  public void velocidad(int maxV) {
+    System.out.println("La velocidad máxima es: " + maxV + "Km/h \n");
+  }
+
+//Creación de método Adelante
+  public void adelante() {
+    System.out.println("1. Oprime el clutch y mueve la palanca de mano hacia adelante");
+  }
+
+//Creación de método Clutch
+  public void clutch() {
+    System.out.println("2. Ahora puedes acelerar");
+  }
+
+//Creación de método Reversa
+  public void reversa() {
+    System.out.println("3. Oprime el clutch y mueve la palanca de mano hacia atras");
+  }
+
+  //Método Main llamando métodos
+  public static void main(String[] args) {
+    Main miCarro = new Main();
+    miCarro.aTodoGas();
+    miCarro.velocidad(200);
+    miCarro.Adelante();
+    miCarro.clutch();
+    miCarro.reversa();
+  }
+}
