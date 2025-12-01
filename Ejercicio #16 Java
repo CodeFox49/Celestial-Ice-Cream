@@ -1,0 +1,53 @@
+//Super Clase
+class Animal {
+  public void animalSound() {
+    System.out.println("\033[96mEl animal hace un sonido:\033[0m");
+  }
+}
+
+//Clase hijo Cerdo
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("\033[95mEl Cerdo dice:\033[0m Oink Oink");
+  }
+}
+
+//Clase hijo Perro
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("\033[91mEl Perro dice:\033[0m Guau Guau");
+  }
+}
+
+//Clase hijo Gato
+class Cat extends Animal {
+  public void animalSound() {
+    System.out.println("\033[93mEl Gato dice:\033[0m Miau Miau");
+  }
+}
+
+//Clase hijo Pajaro
+class Bird extends Animal {
+  public void animalSound() {
+    System.out.println("\033[92mEl Pajaro dice:\033[0m Pio Pio");
+  }
+}
+
+//Método Main
+class Main {
+  public static void main(String[] args) {
+    //Creación de Objetos
+    Animal myAnimal = new Animal();
+    Animal myPig = new Pig();
+    Animal myDog = new Dog();
+    Animal myCat = new Cat();
+    Animal myBird = new Bird();
+    
+    //Impresión del atributo padre en cada objeto 
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+    myCat.animalSound();
+    myBird.animalSound();
+  }
+}
