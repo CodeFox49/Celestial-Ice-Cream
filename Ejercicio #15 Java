@@ -1,0 +1,26 @@
+//Clase Padre
+class Vehicle {
+  protected String auto = "Ford";        //Variable Vehiculo
+  protected String auto2 = "Ferrari";
+  public void honk() {                    //Método Vehículo
+    System.out.println("Tuut, tuut!");
+  }
+}
+
+//Clase hijo
+class Car extends Vehicle {
+  private String model = "Mustang";    //Variable Carro
+  private String model2 = "Amalfi";
+  public static void main(String[] args) {
+
+    //Objeto Carro
+    Car miCarro = new Car();
+
+    //LLamada del método honk de la clase padre
+    miCarro.honk();
+
+    //Muestra de Datos
+    System.out.println(miCarro.auto + " " + miCarro.modelo);
+    System.out.println(miCarro.auto2 + " " + miCarro.modelo2);
+  }
+}
